@@ -7,3 +7,16 @@ Implement:
   Created a simple, elegant portfolio card with a profile picture, name, role, and action buttons.
 Challenges:
   <body img src=...> is invalid
+
+Day 2:07/02/25
+
+Learn:
+  html-> <a> <img>
+  css->justify-content?,flex
+Implement:
+  given background image
+  small px images,different css styles
+  navigation 
+Challenges:
+  to imoprt social media icons buttons directly...
+  
