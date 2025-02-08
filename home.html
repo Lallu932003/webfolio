@@ -17,44 +17,72 @@
     
         }
         h1, h2 {
+            font-family: 'Poppins', sans-serif;
             color: whitesmoke;
             font-weight: 1000;
-            margin: 0;
+            margin: 10;
             text-align: left;
         }
         h1 {
-            font-size: 66px;
+            font-size: 70px;
         }
         h2 {
             font-size: 56px;
             margin-top: -10px;
         }
         h4 {
-            font-family: 'Poppins', sans-serif;
             position: absolute;
             top: 20px;
-            left: 20px;
-            font-size: 20px;
+            left: 15%;
+            transform: translateX(-50%);
+            font-size: 18px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px 20px;
+            border-radius: 8px;
         }
-        .icons{
-    position: absolute;
-    bottom: 20px;
-    left: 50px; /* Adjust as needed */
-    display: flex;
-    gap: 20px;
-}
+        h4 a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+        h4 a:hover {
+            color: gray;
+        }
+        .icons {
+         position: absolute;
+        bottom: 30px; /* Adjust distance from bottom */
+        left: 15%;
+        transform: translateX(-50%); /* Center horizontally */
+        display: flex;
+        gap: 20px;
+        }
+
+        .icons a img {
+
+            width: 40px;
+            height: 40px;
+            filter: brightness(0.9);
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+        .icons a:hover img {
+            transform: scale(1.2);
+            filter: brightness(1);
+        }
     </style>
 </head>
 <body style="background-image: url('home.jpg');
 background-size: cover; 
 background-position: center; 
 background-repeat: no-repeat;">
-<h4>&nbsp&nbsp&nbsp<a href="home.html" style="color: whitesmoke; text-decoration: none;">Home</a>&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp
-    <a href="about.html" style="color: whitesmoke; text-decoration: none;">About</a>&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp
-    <a href="qualification.html" style="color: whitesmoke; text-decoration: none;">Qualification</a></h4>
-    <h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<h4>
+    <a href="home.html">Home</a> | 
+    <a href="about.html">About</a> | 
+    <a href="qualification.html">Qualification</a>
+</h4>
+    <h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
         Annmariya</h1>
-    <h2>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <h2>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
         Lalu</h2>
     <div class="icons">
     <a href="https://www.instagram.com/annmariyalalu_?igsh=MW4zMm0zZ3Zwc3g0cQ==" target="_blank"><img src="insta.png" alt="insta" width="30px">

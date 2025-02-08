@@ -24,8 +24,9 @@ Day 3:08/02/25
 
 Learn:
   table creation,text alignments
+  css->hover
 Implement:
-  table
+  table,hover,buttons
 Challenges:
   background image clarity...
   

@@ -23,11 +23,24 @@
                 text-align: center;
             }
             h4 {
-                position: absolute;
-                top: 20px;
-                left: 20px;
-                font-size: 20px;
-            }
+            position: absolute;
+            top: 20px;
+            left: 15%;
+            transform: translateX(-50%);
+            font-size: 18px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+        h4 a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+        h4 a:hover {
+            color: gray;
+        }
             .container {
                 background: rgba(0, 0, 0, 0.6);
                 padding: 20px;
@@ -51,9 +64,9 @@
     </head>
     <body>
         <h4>
-            <a href="home.html" style="color: whitesmoke; text-decoration: none;">Home</a> &nbsp;|&nbsp;
-            <a href="about.html" style="color: whitesmoke; text-decoration: none;">About</a> &nbsp;|&nbsp;
-            <a href="qualification.html" style="color: whitesmoke; text-decoration: none;">Qualification</a>
+            <a href="home.html">Home</a> | 
+            <a href="about.html">About</a> | 
+            <a href="qualification.html">Qualification</a>
         </h4>
 
         <div class="container">
