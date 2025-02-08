@@ -19,4 +19,13 @@ Implement:
   navigation 
 Challenges:
   to imoprt social media icons buttons directly...
+
+Day 3:08/02/25
+
+Learn:
+  table creation,text alignments
+Implement:
+  table
+Challenges:
+  background image clarity...
   
